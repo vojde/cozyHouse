@@ -1,0 +1,39 @@
+.about-shelter {
+    width: 100%;
+    min-height: 588px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.img-about-shelter {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box-text-about-shelter {
+    width: 450px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-about-shelter {
+    width: 100%;
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.p-about-shelter {
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}

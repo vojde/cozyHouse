@@ -1,0 +1,76 @@
+.how-you-can {
+    width: 100%;
+    min-height: 611px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text-how-you-can {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img-how-you-can {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-how-you-can {
+    width: 225px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 500px) {
+    .how-you-can {
+        padding: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .text-how-you-can {
+        height: 10%;
+        margin-bottom: 25px;
+    }
+
+    .box-img-how-you-can {
+        height: 90%;
+        justify-content: left;
+    }
+
+    .img-how-you-can {
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    .img-how-you-can-mobile {
+        width: 170px;
+    }
+}
+
+@media (max-width: 375px) {
+    h4 {
+        font-size: 15px;
+    }
+
+    .img-how-you-can {
+        width: 100px;
+    }
+
+    .img-how-you-can-mobile {
+        width: 150px;
+    }
+}
